@@ -16,19 +16,16 @@
           <v-list-item-action>
             <v-icon>mdi-format-list-checkbox</v-icon>
           </v-list-item-action>
-          <h1>Sample page</h1>
           <NLink to="/">
            Top Page
           </NLink>
           </v-list-item>
           
           <v-list-item link>
-           <v-list-item-action>
-            <v-icon>mdi-playlist-check</v-icon>
-            </v-list-item-action>
-           <v-list-item-content>
-            <v-list-item-title>Copmleted</v-list-item-title>
-            </v-list-item-content>
+           
+            <NLink to="/about">
+      About Page
+    </NLink>
            </v-list-item>
       </v-list>
       
