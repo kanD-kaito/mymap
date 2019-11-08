@@ -16,9 +16,10 @@
           <v-list-item-action>
             <v-icon>mdi-format-list-checkbox</v-icon>
           </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title>Tasks</v-list-item-title>
-          </v-list-item-content>
+          <h1>Sample page</h1>
+          <NLink to="/">
+           Top Page
+          </NLink>
           </v-list-item>
           
           <v-list-item link>
